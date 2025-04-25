@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Company</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+       body {
+       background-color: rgb(3, 242, 250); /* Light cyan background */
+        margin: 0;
+        padding-bottom: 60px; /* Prevent content overlap with footer */
+        padding-top: 80px; /* Add space at the top to prevent the profile picture from touching the navigation bar */
+       }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa; /* Light gray background */
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+            z-index: 1000; /* Ensure it stays above other elements */
+        }
+        form {
+            background-color: darkblue; /* Dark blue background for form */
+            color: white; /* Ensure text is readable */
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 600px; /* Center and limit form width */
+            border-radius: 8px; /* Add rounded corners */
+        }
+        .form-heading {
+            margin-bottom: 10px; /* Reduce space below the heading */
+        }
+        .contact-form {
+            margin-top: 20px; /* Add spacing above the form */
+        }
+        .form-group {
+            margin-bottom: 15px; /* Reduce space between fields */
+        }
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .form-control {
+            padding: 10px 12px; /* Adjust input padding */
+        }
+        button {
+            margin-left: 0;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f8f9fa; /* Light gray background */
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+            z-index: 500; /* Ensure it stays above other elements */
+        }
+        .profile-image {
+            width: 250px; /* Adjust the size of the circle */
+            height: 200px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the circle */
+            border: 3px solid #fff; /* Optional: Adds a border around the image */
+            display: block;
+            margin: 20px auto; /* Center the image */
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Transparent Cleaning</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <img src="profile.png" alt="Profile" class="profile-image">
+    </div>
+
+    <section id="home" class="my-5">
+        <h1><b>Transparent Cleaning Company</b></h1>
+        <p>Welcome to Transparent Cleaning Company</p>
+        <p><b>YOUR SPECIALIST IN CLEANING AND FUMIGATION/PEST CONTROL SERVICES</b></p>
+        <p>We provide quality cleaning services and effective pest eradication</p>
+    </section>
+
+    <section id="about" class="my-5">
+        <h2><b>About Us</b></h2>
+        <p>Who We Are</p>
+        <p><b>Expert Cleaning & Fumigation</b></p>
+        <p>Transparent Cleaning Company is a professional cleaning and fumigation company dedicated to delivering top-tier hygiene solutions for both residential and commercial spaces. We specialize in domestic cleaning services, including sofa set, carpet, mattress, house, and post-construction cleaning, as well as toilet stain and odor removal.</p>
+        <p>Our fumigation and pest control services effectively eliminate household pests such as bedbugs, cockroaches, mosquitoes, mice, and bees, ensuring a safe and comfortable living environment. We also provide commercial fumigation services for offices, warehouses, food-grade premises, and hospitals, maintaining the highest standards of cleanliness and sanitation.</p>
+        <p>At Transparent Cleaning Company, we prioritize customer satisfaction by using eco-friendly products, advanced cleaning techniques, and a professional team committed to excellence. Whether you need routine cleaning or intensive pest control, we guarantee reliable and efficient services tailored to your needs. Experience cleanliness and freshness like never before with <b>Transparent Cleaning Company!</b></p>
+    </section>
+
+    
+        <section id="services" class="my-5">
+        <h3><b>Services Offered</b></h3>
+    <p><img src="postconstr.jpg"></p>
+    <p><b>Post Construction Cleaning</b></p>
+    <p>Expert Post-Construction Cleaning Services After construction or renovation,dust,debris</p>
+    <p><img src="house cleaning.jpg"></p>
+    <p><b>House Cleaning</b></p>
+    <p>Professional House Cleaning Services Keeping your home and fresh</p>
+    <p><img src="removal.jpg"></p>
+    <p><b>Toilet/Sink Stains Removal</b></p>
+    <p>Professional Toilet&Stain Removal Sink Cleaning Services Stubborn stains</p>
+    <p><img src="sofa.jpg"></p>
+    <p><b>Bedbugs Extermination</b></p>
+    <p>Expert Bedbug Fumigation &Control Services Bedbugs infestatioms can disrupt</p>
+    <p><img src="office.jpg"></p>
+    <p><b>Commercial Cleaning Services</b></p>
+    <p>Commercial Cleaning Services at Transparent Company, We offer top-tier commercial</p>
+    <p><img src="warehouse.jpg"></p>
+    <p><b>Warehouse Fumigation</b></p>
+    <p>Warehouse Fumigation Services.A pest free warehouse is essential for protecting</p>
+    <p><img src="corona.jpg"></p>
+    <p><b>Disinfection Services</b></p>
+    <p>Disinfection Services At Transparent Company, we provide professional disinfection services</p>
+    <p><img src="bed.jpg"></p>
+    <p><b>mattress Cleaning</b></p>
+    <p>Professional Mattress Cleaning Services.A clean mattress is essential</p>
+    </section>
+
+    <section id="gallery" class="my-5">
+        <h4><b>Our Gallery</b></h4>
+        <div class="slideshow-container">
+            <div class="slides-wrapper">
+                <!-- Slide 1 -->
+                <div class="mySlide">
+                    <img src="comp5.jpg" class="img-fluid" alt="Gallery Image 1" style="width:100%">
+                </div>
+                <!-- Slide 2 -->
+                <div class="mySlide">
+                    <img src="comp6.jpg" class="img-fluid" alt="Gallery Image 2" style="width:100%">
+                </div>
+                <!-- Slide 3 -->
+                <div class="mySlide">
+                    <img src="comp7.jpg" class="img-fluid" alt="Gallery Image 3" style="width:100%">
+                </div>
+                <!-- Slide 4 -->
+                <div class="mySlide">
+                    <img src="comp8.jpg" class="img-fluid" alt="Gallery Image 4" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Add CSS for Horizontal Sliding -->
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden; /* Hide overflowing slides */
+            
+        }
+    
+        .slides-wrapper {
+            display: flex; /* Arrange slides horizontally */
+            transition: transform 0.4s ease-in-out; /* Smooth sliding effect */
+        }
+    
+        .mySlide {
+            min-width: 100%; /* Each slide takes up full width */
+            box-sizing: border-box;
+        }
+    </style>
+    
+    <!-- Add JavaScript for Horizontal Sliding -->
+    <script>
+        let slideIndex = 0;
+    
+        function showSlides() {
+            const slidesWrapper = document.querySelector(".slides-wrapper");
+            const slides = document.querySelectorAll(".mySlide");
+            slideIndex++;
+            if (slideIndex >= slides.length) {
+                slideIndex = 0; // Reset to the first slide
+            }
+            slidesWrapper.style.transform = `translateX(-${slideIndex * 100}%)`; // Slide horizontally
+            setTimeout(showSlides, 3000); // Change slide every 3 seconds
+        }
+    
+        showSlides(); // Start the slideshow
+    </script>
+    <section id="contacts" class="my-5">
+        <h5 class="form-heading"><b>Contacts</b></h5>
+        <form action="home.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_no">Phone no.:</label>
+                <input type="text" name="phone_no" id="phone_no" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" name="location" id="location" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" class="form-control" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="SUBMIT" class="btn btn-primary">
+        </form>
+    </section>
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="footer">
+        <div class="social-links mt-3">
+            <a href="https://www.facebook.com" class="btn btn-primary" target="_blank" role="button">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.twitter.com" class="btn btn-info" target="_blank" role="button">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com" class="btn btn-danger" target="_blank" role="button">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.linkedin.com" class="btn btn-dark" target="_blank" role="button">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+        </div>
+        <p>&copy; Transparent Cleaning Company.CO.KE 2025</p>
+    </footer>
+</body>
+</html>
